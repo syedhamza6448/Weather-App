@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,300;1,300&family=Oxanium:wght@200..800&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Own -->
+    <link rel="stylesheet" href="Assets/css/weather.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="search">
+                <input type="text" placeholder="Enter City Name" spellcheck="false">
+                <button><img src="Assets/images/search.png" alt="search"></button>
+            </div>
+            <div class="error">
+                <p>Invalid City Name</p>
+            </div>
+            <div class="weather">
+                <img src="Assets/images/rain.png" class="weather-icon">
+                <h1 class="temp">-°C</h1>
+                <h2 class="city">Karachi</h2>
+                <div class="details">
+                    <div class="col">
+                        <img src="Assets/images/humidity.png" alt="">
+                        <div>
+                            <p class="humidity">-%</p>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="Assets/images/wind.png" alt="">
+                        <div>
+                            <p class="wind">- Km/h</p>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="Assets/js/weather.js"></script>
+
+</html>
